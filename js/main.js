@@ -34,13 +34,7 @@
         $('#offcanvas').removeClass('show');
     });
     
-    //Flexbox for Single page
-    $(window).load(function() {
-        $('.flexslider').flexslider({
-            animation: "slide",
-            controlNav: "thumbnails"
-        });
-    });
+  
     // to top Script
      $(window).scroll(function(){
         if($(this).scrollTop() > 500){
